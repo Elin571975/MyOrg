@@ -1,0 +1,150 @@
+body{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: fixed;
+    color: white;
+}
+
+/*NAVIGATION BAR*/
+#navbar{
+    font-size: 16px;
+    background-color: black;
+}
+
+
+/*INDEX PAGE*/
+#logoIndex{
+    margin: 150px 0px auto 250px;
+    height: 40%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#mainMoto{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size:30px;
+    color: white;
+}
+
+#enterBtn{
+margin: 10px auto 10px auto;
+position: relative;
+left: 380px;
+cursor: pointer;
+background-color: white;
+font-size: 14px;
+}
+
+#enterBtn:active {
+background-color:grey;
+transform: translateY(4px);
+}
+
+
+/*CONTACT*/
+form{
+   margin: auto;
+   width: 750px;
+   border-radius: 10px;
+   color: white;
+   background-color: black;
+   padding: 10px;
+}
+
+.containerContact{
+   width: 700px;
+   margin: 5px auto;
+}
+
+#containerTitle{
+   font-style: bold;
+   font-size: 18px;
+   margin: 5px;
+   color: white;
+   }
+
+#contactBtn{
+   font-size: 14px;
+}   
+
+/*TEAM*/
+
+#teamBlock{
+    margin: auto auto auto 10px;
+    text-align: center;
+}
+
+#team{
+    background-color: black;
+    margin: 5px;
+    padding:2px;
+    align-content: center;
+    border-radius: 5px;
+    }
+
+#teamPhoto{
+   width: 150px;
+   height: 170px;
+   border-radius: 5px;
+   text-align: center;
+   margin: 10px;
+   
+}
+
+#teamName{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#teamPosition{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#teamSkills{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+   
+}
+
+/* PORTFOLIO*/
+
+.containerPortfolio{
+width: 1000px;
+height: 550px;
+margin: 20px auto;
+border-radius: 10px;
+}
+
+#portfolio{
+height: 180px;
+width: 200px;
+}
+
+#namePortfolio{
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+}
+
+
+/*ABOUT*/
+.about{
+    width: 80%;
+    margin: 30px;
+
+}
+
+#valores{
+    width: 40%;
+    height: 100%;
+}
+
+
+
